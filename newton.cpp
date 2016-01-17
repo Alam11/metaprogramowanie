@@ -4,7 +4,7 @@ struct newton {
 };
 
 template<int K>
-struct newton<0,K> {
+struct newton<0, K> {
     static constexpr int val = 1;
 };
 
